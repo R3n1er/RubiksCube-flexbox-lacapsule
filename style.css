@@ -1,22 +1,37 @@
-body{
-    margin: 0;
-    padding: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+
+
+#cube {
+  width: 400px;
+  height: 400px;
+  border: 1px solid black;
 }
 
-#container{
-    display: flex;
-    margin-top: 10%;
-    width: 400px;
-    height: 400px;
-    border: 1px solid black;
+#squareWrapper {
+  height: 100%;
+  width: 100%;
 }
 
-.row{
-    width: 100px;
-    height: 100px;
-    margin: 10px;
-    border: 2px solid black;
+.centerBlock {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  background-color: black;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
 }
